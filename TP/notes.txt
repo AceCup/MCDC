@@ -1,0 +1,9 @@
+membre(id, pseudo, adresse)
+conducteur(id_cond, réputation)
+passager(id_pass, réputation)
+
+trajet(no_tra, origine, destination, date, horaire, type)
+
+mécanisme()
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projetuml" version="4">
+  <OBJECT>
+    <ID name="projetuml" mc="Standard.Package" uid="f54019da-4789-4fde-b90e-80f9505590ac"/>
+    <PID name="projetUML" mc="Standard.Project" uid="24f71d4f-08b1-4ffa-bacb-3e114bfecc9a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projetuml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Package" mc="Standard.Package" uid="2c68a957-98d1-40fb-bfa5-3441ba68fd98"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

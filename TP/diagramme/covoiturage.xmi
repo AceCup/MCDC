@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_DkVHICK8EeyUoeTVEgYElg" name="covoiturage">
+  <eAnnotations xmi:id="_DkVHISK8EeyUoeTVEgYElg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_DkVHIiK8EeyUoeTVEgYElg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DkVHIyK8EeyUoeTVEgYElg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DkVHJCK8EeyUoeTVEgYElg" name="Package">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_DkVHJSK8EeyUoeTVEgYElg" name="Activity">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_DkVHJiK8EeyUoeTVEgYElg" name="locals"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_DkVHJyK8EeyUoeTVEgYElg" name="Demander un trajet" outgoing="_DkVHMSK8EeyUoeTVEgYElg" incoming="_DkVHQSK8EeyUoeTVEgYElg" inPartition="_DkVuMCK8EeyUoeTVEgYElg">
+        <body></body>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_DkVHKCK8EeyUoeTVEgYElg" name="Decision-Merge" outgoing="_DkVHMyK8EeyUoeTVEgYElg _DkVHNSK8EeyUoeTVEgYElg" incoming="_DkVHOyK8EeyUoeTVEgYElg" inPartition="_DkVuMCK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:FlowFinalNode" xmi:id="_DkVHKSK8EeyUoeTVEgYElg" name="Flow Final Node" incoming="_DkVHMyK8EeyUoeTVEgYElg" inPartition="_DkVuMCK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_DkVHKiK8EeyUoeTVEgYElg" name="Decision-Merge" outgoing="_DkVHNyK8EeyUoeTVEgYElg _DkVHOSK8EeyUoeTVEgYElg" incoming="_DkVHMSK8EeyUoeTVEgYElg" inPartition="_DkVuMSK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:FlowFinalNode" xmi:id="_DkVHKyK8EeyUoeTVEgYElg" name="Flow Final Node" incoming="_DkVHOSK8EeyUoeTVEgYElg" inPartition="_DkVuMSK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_DkVHLCK8EeyUoeTVEgYElg" name="Proposer un trajet" outgoing="_DkVHOyK8EeyUoeTVEgYElg" incoming="_DkVHPyK8EeyUoeTVEgYElg" inPartition="_DkVuMSK8EeyUoeTVEgYElg">
+        <body></body>
+      </node>
+      <node xmi:type="uml:InitialNode" xmi:id="_DkVHLSK8EeyUoeTVEgYElg" name="Initial Node" outgoing="_DkVHPSK8EeyUoeTVEgYElg" inPartition="_DkVuMiK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_DkVHLiK8EeyUoeTVEgYElg" name="Decision-Merge1" outgoing="_DkVHPyK8EeyUoeTVEgYElg _DkVHQSK8EeyUoeTVEgYElg" incoming="_DkVHPSK8EeyUoeTVEgYElg" inPartition="_DkVuMiK8EeyUoeTVEgYElg"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_DkVHLyK8EeyUoeTVEgYElg" name="Créer un trajet" outgoing="_DkVHQyK8EeyUoeTVEgYElg" incoming="_DkVHNSK8EeyUoeTVEgYElg _DkVHNyK8EeyUoeTVEgYElg" inPartition="_DkVuMiK8EeyUoeTVEgYElg">
+        <body></body>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_DkVHMCK8EeyUoeTVEgYElg" name="Evaluer" incoming="_DkVHQyK8EeyUoeTVEgYElg" inPartition="_DkVuMiK8EeyUoeTVEgYElg">
+        <body></body>
+      </node>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHMSK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHJyK8EeyUoeTVEgYElg" target="_DkVHKiK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHMiK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHMyK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHKCK8EeyUoeTVEgYElg" target="_DkVHKSK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHNCK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHNSK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHKCK8EeyUoeTVEgYElg" target="_DkVHLyK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHNiK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHNyK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHKiK8EeyUoeTVEgYElg" target="_DkVHLyK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHOCK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHOSK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHKiK8EeyUoeTVEgYElg" target="_DkVHKyK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHOiK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHOyK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHLCK8EeyUoeTVEgYElg" target="_DkVHKCK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHPCK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHPSK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHLSK8EeyUoeTVEgYElg" target="_DkVHLiK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHPiK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHPyK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHLiK8EeyUoeTVEgYElg" target="_DkVHLCK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHQCK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHQSK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHLiK8EeyUoeTVEgYElg" target="_DkVHJyK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHQiK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_DkVHQyK8EeyUoeTVEgYElg" name="ControlFlow" source="_DkVHLyK8EeyUoeTVEgYElg" target="_DkVHMCK8EeyUoeTVEgYElg">
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_DkVHRCK8EeyUoeTVEgYElg" value="1"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_DkVuMCK8EeyUoeTVEgYElg" name="Passager" node="_DkVHJyK8EeyUoeTVEgYElg _DkVHKCK8EeyUoeTVEgYElg _DkVHKSK8EeyUoeTVEgYElg"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_DkVuMSK8EeyUoeTVEgYElg" name="Conducteur" node="_DkVHKiK8EeyUoeTVEgYElg _DkVHKyK8EeyUoeTVEgYElg _DkVHLCK8EeyUoeTVEgYElg"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_DkVuMiK8EeyUoeTVEgYElg" name="Membre" node="_DkVHLSK8EeyUoeTVEgYElg _DkVHLiK8EeyUoeTVEgYElg _DkVHLyK8EeyUoeTVEgYElg _DkVHMCK8EeyUoeTVEgYElg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

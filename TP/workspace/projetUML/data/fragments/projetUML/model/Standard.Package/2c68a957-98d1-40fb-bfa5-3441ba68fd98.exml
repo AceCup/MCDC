@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Package" version="4">
+  <OBJECT>
+    <ID name="Package" mc="Standard.Package" uid="2c68a957-98d1-40fb-bfa5-3441ba68fd98"/>
+    <PID name="projetuml" mc="Standard.Package" uid="f54019da-4789-4fde-b90e-80f9505590ac"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Package]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="eac97f47-341a-48f5-af9a-099e87e98645"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Membre" mc="Standard.Class" uid="e3abb1fd-f670-486c-bfa9-9acd328b08b4"/>
+        <COMPID name="Passager" mc="Standard.Class" uid="6f170f51-05bd-4dbb-ac7c-d78782ca1063"/>
+        <COMPID name="Conducteur" mc="Standard.Class" uid="887344e4-cea1-4fd7-8b82-793a4bda7ee5"/>
+        <COMPID name="Trajet" mc="Standard.Class" uid="6402b127-8033-4831-baf7-5615af4201e0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Package Class diagram" mc="Standard.ClassDiagram" uid="f6231063-3921-4d95-bdf4-5c62e704df4e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
